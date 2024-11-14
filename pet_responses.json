@@ -1,0 +1,35 @@
+[
+  {
+    "command": "feed",
+    "variations": [
+      { "text": "hungry", "emotion": "happy" },
+      { "text": "feed", "emotion": "happy" }
+    ],
+    "responses": [
+      "Yum! Thanks for the food!",
+      "I'm full now! That was delicious!",
+      "I love my meals!"
+    ]
+  },
+  {
+    "command": "play",
+    "variations": [
+      { "text": "play", "emotion": "happy" },
+      { "text": "fun", "emotion": "excited" }
+    ],
+    "responses": [
+      "Yay! Let's play!",
+      "This is so much fun!",
+      "I'm having a blast!"
+    ]
+  },
+  {
+    "command": "how are you",
+    "variations": [{ "text": "how are you", "emotion": "neutral" }],
+    "responses": [
+      "I'm doing well, thanks for asking!",
+      "I'm good, how about you?",
+      "I'm just here, living the life!"
+    ]
+  }
+]
