@@ -109,6 +109,16 @@
     ]
   },
   {
+    "command": "what is your name",
+    "variations": [
+      { "text": "whats your name", "emotion": "affectionate" },
+      { "text": "whats is ur name", "emotion": "content" },
+      { "text": "whats ur name", "emotion": "calm" },
+      { "text": "is your name cinnamon", "emotion": "calm" }
+    ],
+    "responses": ["Gabi named me Cinnamon."]
+  },
+  {
     "command": "bath",
     "variations": [
       { "text": "bath", "emotion": "nervous" },
