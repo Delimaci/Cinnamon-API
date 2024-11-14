@@ -3,8 +3,18 @@ from pydantic import BaseModel
 import json
 import random
 from fuzzywuzzy import fuzz, process
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace "*" with specific URLs like ["http://localhost:3000"] if needed
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow any HTTP methods (e.g., GET, POST, etc.)
+    allow_headers=["*"],  # Allow any headers
+)
+
 
 # Load the dataset from JSON file
 def load_responses():
@@ -14,6 +24,7 @@ def load_responses():
         return responses
     except FileNotFoundError:
         return None
+        
 
 # Function to get a random response based on user input
 def get_pet_response(user_input, responses):
