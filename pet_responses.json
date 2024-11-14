@@ -3,33 +3,271 @@
     "command": "feed",
     "variations": [
       { "text": "hungry", "emotion": "happy" },
-      { "text": "feed", "emotion": "happy" }
+      { "text": "feed", "emotion": "happy" },
+      { "text": "starving", "emotion": "excited" },
+      { "text": "eat", "emotion": "content" }
     ],
     "responses": [
       "Yum! Thanks for the food!",
       "I'm full now! That was delicious!",
-      "I love my meals!"
+      "I love my meals!",
+      "Mmm, that was tasty! You're the best!",
+      "I'm stuffed, but I could always go for a snack later!"
     ]
   },
   {
     "command": "play",
     "variations": [
       { "text": "play", "emotion": "happy" },
-      { "text": "fun", "emotion": "excited" }
+      { "text": "fun", "emotion": "excited" },
+      { "text": "game", "emotion": "playful" },
+      { "text": "let's play", "emotion": "energetic" }
     ],
     "responses": [
       "Yay! Let's play!",
       "This is so much fun!",
-      "I'm having a blast!"
+      "I'm having a blast!",
+      "I love playing with you!",
+      "You're the best playmate!"
     ]
   },
   {
     "command": "how are you",
-    "variations": [{ "text": "how are you", "emotion": "neutral" }],
+    "variations": [
+      { "text": "how are you", "emotion": "neutral" },
+      { "text": "how's it going", "emotion": "neutral" },
+      { "text": "what's up", "emotion": "neutral" }
+    ],
     "responses": [
       "I'm doing well, thanks for asking!",
       "I'm good, how about you?",
-      "I'm just here, living the life!"
+      "I'm just here, living the life!",
+      "Feeling great today!",
+      "Doing pawsitively awesome!"
+    ]
+  },
+  {
+    "command": "sleep",
+    "variations": [
+      { "text": "sleep", "emotion": "sleepy" },
+      { "text": "nap", "emotion": "tired" },
+      { "text": "rest", "emotion": "relaxed" },
+      { "text": "bed", "emotion": "sleepy" }
+    ],
+    "responses": [
+      "Zzz... I'm going to take a little nap.",
+      "Goodnight, see you in a bit!",
+      "I'm feeling sleepy... time for a rest.",
+      "Ahh, a peaceful nap sounds perfect.",
+      "I'm going to curl up and rest for a while."
+    ]
+  },
+  {
+    "command": "play fetch",
+    "variations": [
+      { "text": "fetch", "emotion": "playful" },
+      { "text": "throw", "emotion": "excited" },
+      { "text": "ball", "emotion": "energetic" }
+    ],
+    "responses": [
+      "I'll get the ball, you throw it!",
+      "I'm ready! Throw the ball, please!",
+      "Fetch time! I love this game!",
+      "Catch me if you can! Here it comes!",
+      "I’m so ready to chase the ball!"
+    ]
+  },
+  {
+    "command": "hug",
+    "variations": [
+      { "text": "hug", "emotion": "loving" },
+      { "text": "cuddle", "emotion": "loving" },
+      { "text": "snuggle", "emotion": "content" },
+      { "text": "please hug", "emotion": "affectionate" }
+    ],
+    "responses": [
+      "I love cuddles! Come here!",
+      "Hug me tight! I need some love.",
+      "I'm always here for a hug!",
+      "Aww, that's so sweet! Hug me more!",
+      "You give the best hugs!"
+    ]
+  },
+  {
+    "command": "pet me",
+    "variations": [
+      { "text": "pet me", "emotion": "affectionate" },
+      { "text": "scratch", "emotion": "content" },
+      { "text": "stroke", "emotion": "calm" }
+    ],
+    "responses": [
+      "Oh, that feels so good!",
+      "Pet me more, please!",
+      "I love being petted. You’re the best!",
+      "Mmm, keep going! I love the attention.",
+      "You have the magic touch, I feel so relaxed."
+    ]
+  },
+  {
+    "command": "bath",
+    "variations": [
+      { "text": "bath", "emotion": "nervous" },
+      { "text": "shower", "emotion": "uneasy" },
+      { "text": "clean", "emotion": "reluctant" }
+    ],
+    "responses": [
+      "Uh oh, here we go... I guess I need one.",
+      "I don't like baths, but I'll manage.",
+      "I’d prefer to stay dirty, thanks!",
+      "Bubbles, really? Do we have to?",
+      "I don’t like this, but I’ll do it."
+    ]
+  },
+  {
+    "command": "sit",
+    "variations": [
+      { "text": "sit", "emotion": "obedient" },
+      { "text": "sit down", "emotion": "calm" },
+      { "text": "stay", "emotion": "serene" }
+    ],
+    "responses": [
+      "I'm sitting now! What’s next?",
+      "I’m here, sitting pretty!",
+      "Sitting, just like you asked!",
+      "Ready for the next command!",
+      "I'm sitting, all ears!"
+    ]
+  },
+  {
+    "command": "speak",
+    "variations": [
+      { "text": "speak", "emotion": "energetic" },
+      { "text": "talk", "emotion": "excited" },
+      { "text": "say something", "emotion": "playful" }
+    ],
+    "responses": [
+      "Woof! Woof! Can you hear me?",
+      "Hello there! I’m talking!",
+      "I’m speaking, woof woof!",
+      "I’m not shy! Here’s my bark!",
+      "Ruff ruff! Can you understand me?"
+    ]
+  },
+  {
+    "command": "roll over",
+    "variations": [
+      { "text": "roll over", "emotion": "obedient" },
+      { "text": "flip", "emotion": "playful" }
+    ],
+    "responses": [
+      "I’m rolling over, watch me!",
+      "Ta-da! Look at that roll!",
+      "I’m such a good dog!",
+      "Who’s a good roller? I am!",
+      "Look at my tricks!"
+    ]
+  },
+  {
+    "command": "dance",
+    "variations": [
+      { "text": "dance", "emotion": "excited" },
+      { "text": "let's dance", "emotion": "happy" }
+    ],
+    "responses": [
+      "I love to dance! Look at me go!",
+      "Shake it! I'm ready to boogie!",
+      "Dance party time!",
+      "I'm groovin'! Let's dance together!",
+      "Watch me do the puppy shuffle!"
+    ]
+  },
+  {
+    "command": "good boy",
+    "variations": [
+      { "text": "good boy", "emotion": "proud" },
+      { "text": "well done", "emotion": "joyful" }
+    ],
+    "responses": [
+      "Aww, thank you! I know I’m good!",
+      "You’re making me blush!",
+      "I’m the best, aren’t I?",
+      "That makes me so happy!",
+      "I love hearing that!"
+    ]
+  },
+  {
+    "command": "hello",
+    "variations": [
+      { "text": "hello", "emotion": "happy" },
+      { "text": "hi", "emotion": "excited" },
+      { "text": "hiya", "emotion": "friendly" },
+      { "text": "hiiii", "emotion": "friendly" },
+      { "text": "salute", "emotion": "friendly" },
+      { "text": "hey", "emotion": "friendly" },
+      { "text": "yo", "emotion": "playful" }
+    ],
+    "responses": [
+      "Hello there! How’s it going?",
+      "Hi, friend! What’s up?",
+      "Hey there! What are you doing?",
+      "Yo! Ready for some fun?"
+    ]
+  },
+  {
+    "command": "goodbye",
+    "variations": [
+      { "text": "goodbye", "emotion": "sad" },
+      { "text": "bye", "emotion": "sad" },
+      { "text": "see you", "emotion": "neutral" },
+      { "text": "take care", "emotion": "neutral" }
+    ],
+    "responses": [
+      "Goodbye! See you soon!",
+      "Bye for now! I’ll miss you!",
+      "Take care! I’ll be here when you return!",
+      "See you later, alligator!",
+      "I’m gonna miss you! Come back soon!"
+    ]
+  },
+  {
+    "command": "good morning",
+    "variations": [
+      { "text": "good morning", "emotion": "happy" },
+      { "text": "morning", "emotion": "cheerful" },
+      { "text": "rise and shine", "emotion": "energetic" }
+    ],
+    "responses": [
+      "Good morning! Ready to start the day?",
+      "Morning! What fun adventures await?",
+      "Rise and shine! Let’s get moving!",
+      "Good morning! Time to play!"
+    ]
+  },
+  {
+    "command": "good night",
+    "variations": [
+      { "text": "good night", "emotion": "sleepy" },
+      { "text": "night", "emotion": "sleepy" },
+      { "text": "sweet dreams", "emotion": "relaxed" }
+    ],
+    "responses": [
+      "Good night! See you in the morning!",
+      "Sleep tight! Sweet dreams!",
+      "Night night! I’ll be here when you wake up!",
+      "Time to rest, goodnight!"
+    ]
+  },
+  {
+    "command": "happy birthday",
+    "variations": [
+      { "text": "happy birthday", "emotion": "excited" },
+      { "text": "birthday", "emotion": "joyful" }
+    ],
+    "responses": [
+      "Happy birthday to me! Thank you!",
+      "Yay, it’s my special day!",
+      "It's my birthday! Let’s celebrate!",
+      "Woohoo! Another year older!"
     ]
   }
 ]
